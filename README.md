@@ -12,6 +12,14 @@ In order to complete the project, I had to implement a list of items which you c
 
 If you wish to see more projects I completed for the course, you can view each one at the bottom of [my certificate page](https://www.freecodecamp.org/certification/mac8/responsive-web-design#:~:text=responsive%2Dweb%2Ddesign-,As,-part%20of%20this).
 
+## Live Demos
+
+**GitHub Pages:**  
+https://mac-hawkins.github.io/FCC-Product-Landing-Page/
+
+**Original CodePen Submission:**  
+https://codepen.io/mac-hawkins/pen/YzGjwyM
+
 ## About This Version
 
 The course had you write your code in CodePen, which behaves slightly differently as it automatically links the HTML and CSS together and doesn't allow the uploading of images without a subscription. As such, I made some modifications from the original code, which included the following:
