@@ -1,0 +1,181 @@
+/* Fulfills layout requirement 1 and 3. */
+#nav-bar {
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  width: 99%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 5px black;
+}
+
+.nav-link {
+  margin-bottom: 10px;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* title + logo */
+}
+
+/* Fulfills layout requirement 2. */
+@media (max-width: 900px) {
+  #video {
+    width: 75%;
+  }
+}
+
+#title {
+  display: block;
+  text-align: center;
+}
+
+#header-img {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: auto;
+}
+
+.nav-content,
+.header-content,
+.section-content {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+section {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  align-items: center;
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+#Section_Home {
+  background-color: lightblue;
+  align-items: stretch; /* Overrides section alignment */
+  padding-top: 30px;
+}
+
+#Section_Product_Info {
+  background-color: lightgreen;
+  padding-top: 30px;
+}
+
+#Section_About {
+  background-color: lightyellow;
+  padding-top: 30px;
+}
+
+#Section_Contact {
+  background-color: lightgray;
+  padding-top: 30px;
+}
+
+.submit-note {
+  background-color: #ffff00;
+  display: inline-block; /* Prevents background color from going across entire page */
+}
+
+p {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#video {
+  margin-top: 20px;
+}
+
+#form {
+  display: block;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.label-gap {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.div-questions {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.div-questions label {
+  text-align: left;
+}
+.div-questions textarea {
+  width: 100%;
+}
+
+.div-input {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.div-input label {
+  display: block;
+  text-align: left;
+}
+.div-input input {
+  width: 100%;
+}
+
+.div-submit {
+  display: block;
+  width: 100%;
+}
+
+#questions-area {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 75px;
+}
+
+#email {
+  margin-bottom: 20px;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.submit-message-style {
+  visibility: hidden;
+  display: block;
+  color: green;
+  text-align: center;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  color: #888888;
+}
