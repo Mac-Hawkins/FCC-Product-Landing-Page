@@ -105,6 +105,26 @@ p {
   margin-top: 20px;
 }
 
+.image-hq {
+  width: 600px;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+  .image-hq {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.figcaption-hq {
+  text-align: center;
+  font-size: 16px;
+}
+
 #form {
   display: block;
   margin-bottom: 20px;
